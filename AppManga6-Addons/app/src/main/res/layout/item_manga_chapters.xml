@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:id="@+id/background_layout"
+        >
+        <!--La suma de los Pesos debe dar como resultado 1
+            Esto se puede hacer con varios layouts y funciona únicamente
+            con el LinearLayout
+        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chapter_number"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:text="17"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chapter_title"
+                android:textSize="18sp"
+                android:text="Hola, aquí se colocará un título de manga que puede ser corto o muy largo"
+                />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

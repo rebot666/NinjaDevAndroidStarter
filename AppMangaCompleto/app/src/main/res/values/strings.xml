@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AppManga</string>
+
+    <string name="on_going">Aún no termina</string>
+    <string name="completed">Terminado</string>
+    <string name="unknown">Desconocido</string>
+    <string name="status">Estatus:</string>
+    <string name="chapter_lbl">Capítulo</string>
+
+    <string name="loading">Cargando...</string>
+
+    <string name="menu_search">Búsqueda</string>
+    <string name="menu_help">Ayuda</string>
+
+    <string name="title_activity_manga_viewer">Visor Manga</string>
+    <string name="title_activity_manga_chapter">Capítulo Manga</string>
+    <string name="title_activity_manga_list">Lista de Mangas</string>
+    <string name="title_activity_manga_eden">Manga Eden Página Principal</string>
+</resources>

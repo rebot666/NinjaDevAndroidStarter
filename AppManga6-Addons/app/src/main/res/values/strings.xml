@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppManga</string>
+
+    <string name="on_going">Aún no termina</string>
+    <string name="completed">Terminado</string>
+    <string name="unknown">Desconocido</string>
+    ´
+    <string name="status">Estatus:</string>
+
+    <string name="chapter_lbl">Capítulo:</string>
+
+    <string name="title_activity_manga_viewer">Visor Manga</string>
+    <string name="title_activity_manga_chapter">Capítulos Manga</string>
+    <string name="title_activity_manga_list">ActivityMangaList</string>
+    <string name="title_activity_manga_eden">ActivityMangaEden</string>
+</resources>
